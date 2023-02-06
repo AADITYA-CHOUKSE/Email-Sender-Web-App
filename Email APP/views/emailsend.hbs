@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1014/1014639.png" type="image/x-icon">
+    <title> Email Send successfully </title>
+
+    <style>
+        .card {
+            width: 70vw;
+            height: 70vh;
+            background-color: rgb(250, 172, 26);
+
+            
+            border: 1px solid black;
+            border-radius: 10px;
+            box-shadow: 2px 2px 5px black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 50px auto;
+            text-align: center;
+        }
+
+        .email-logo {
+            width: 20vw;
+            height: 20vh;
+            margin-bottom: 20px;
+            background-image: url('https://cdn-icons-png.flaticon.com/512/1014/1014639.png');
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .continue-button {
+            width: 20vw;
+            height: 6vh;
+            background-color: #45db34;
+            color: #FFFFFF;
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: solid black 1px;
+            cursor: pointer;
+            margin-top: 20px;
+
+
+        }
+
+        .success-message {
+            font-size: 2.4em;
+            margin-top: 20px;
+            /* color: green; */
+            color: black;
+            text-shadow: white 2px 2px 2px;
+        }
+
+        body {
+            
+            background-color: rgb(133, 233, 250);
+        }
+    </style>
+</head>
+
+<body>
+    <form action="/" method="post">
+
+        <div class="card">
+            <div class="email-logo"></div>
+            <div class="success-message">
+                Email sent successfully!
+            </div>
+            <button class="continue-button" >Continue</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
